@@ -7,27 +7,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Set the page to the width of the device and set the zoom level to 1 -->
     <meta name="viewport" content="width = device-width, initial-scale =1">
-    
+
     <title>Debugging Checklist</title>
-    
+
   </head>
-  
+
   <body>
     <div class="container">
       <div class="row">
         <h1>Your a new programer and your stuck.</h1>
         <p>Try these suggestions and see if you can get your project working.</p>
-        <p>These suggestions are independent of language. 
-        Each section ends with "Ask for help." 
-        If you ask for help too early it is hard to learn and gain confidence. 
-        If you wait to long you waist time and energy. 
-        I try to balance these two concerns. 
+        <p>These suggestions are independent of language.
+        Each section ends with "Ask for help."
+        If you ask for help too early it is hard to learn and gain confidence.
+        If you wait to long you waist time and energy.
+        I try to balance these two concerns.
         As long as you are making progress keep trying.</p>
         <ul>Signs of progress are:
         <li>Knowing when the error occurs</li>
         <li>Getting new error messages</li>
         <li>Limiting where an error could be coming from.</li>
-        
+      </div>
+      <div>
+        <h2>Flow Chart For Complete Newbies on
+          what to do when Code Doesn’t work</h2>
+        <h2>My Code Won’t Run / I got an error or other message
+            - (usually Syntax errors or Compile Time errors):</h2>
+        <ol>Syntax errors are the best kind of error to have.
+            They always come with error messages.
+            Error messages are kindly bud dumb genies telling you where your
+            code is confusing the computer.
+            (about half the time the computer is wrong about what should be fix)
+            <li><ul>What to Look for in error messages:
+                <li>What line in your program</li>
+                <li>What the computer wants / key words</li>
+                <li>Look for Red or messages</li></ol>
+            <li>On your line? Syntax, number/type/order of arguments, wrong type of function for type/array (in weakly typed goes other place)</li>
+            <li>Before your line? Closing braces ";" initialization…</li>
+            <li>Proof read check spelling and variable names</li>
+            <li>Be your computer (sometimes your variables don't have what you think they do)</li>
+            <li>Google language + key word</li>
+            <li>Comment out your line</li>
+            <li>Retype / try your program line by line checking to see if it works</li>
+            <li>Close and reopen IDE, turn off computer</li>
+            <li>Ask for Help (get variations + explaining helps + get new error/problem + celebrate new line)</li>
+          </ol>
+          <ol>My Code runs and crashes or runs forever – (usually Run-time error):
+              <p>Don't change things randomly it causes distractions / creating other error / makes version control hard</p>
+            <li>Add logs of output, check if program is making progress, where is it taking time</li>
+            <li>Proof read</li>
+            <li>Be your computer</li>
+            <li>Trace the decision tree.</li>
+            <li>Retype / try your program line by line checking to see if it works</li>
+            <li>Close and reopen IDE, turn off computer</li>
+            <li>Comment out blocks of code</li>
+            <li>look for loops or requests </li>
+            <li>is there anything you can Google</li>
+            <li>Ask for Help</li>
+          </ol>
+          <ol>My Code runs but I don’t understand what it is doing or it does nothing – (usually logic errors):
+              <p>Don't change things randomly it causes distractions / creating other error / version control</P>
+            <li>Look for what line/s in your code created the output you see</li>
+            <li>Be your computer</li>
+            <li>Add logs/ break point in your debugger</li>
+            <li>Comment out blocks of code</li>
+            <li>Ask why is the computer putting this out?</li>
+            <li>Look for flow control statements (loop, if …, switch) Check to see what parts of you code are running</li>
+            <li>Retype / proofread your code</li>
+            <li>Ask for help</li>
+          </ol>
+          <ol>I don't even no where to begin learning  about this tool or code:
+            <li>Install make sure it is on you computer</li>
+            <li>if exe try running it (usually not helpful but worth a try)</li>
+            <li>YouTube name of program or tool and your operating system</li>
+            <li>Tutorials / examples</li>
+            <li>Google name of program or tool and your operating system</li>
+            <li>Try to get an error message</li>
+            <li>Ask For Help</li>
+          </ol>
+          <p>Problems that go unnoticed
+          Security – a risk when you store private data or interact with users
+          Malicious user input (when ever you take data from users, corrupt user data)
+          Transmission and storage of private data
+           Authentication
+          Lost access when passwords are lost
+          Memory Leaks
+
+          Overwrite or Corrupt Data
+          When you copy or store data
+          Over run of arrays in some languages
+          Scaling
+          Bad UX and bad users
+          Too big, small, null, wrong type, etc…
+          Landmines how code brakes
+          functions should work correctly and brake spectacularly
+          Suggestions by type of statement
+          If then
+          Never nest if-statements more than two deep and always try to do them one deep.
+          Put blank lines before and after.
+          Your boolean tests should be simple. If they are complex, move their calculations to variables earlier in your function and use a good name for the variable.
+          Watch for all or nothing cases not covered. In "complete" lists. Practice for getting user input. Use of laundry/grocery lists vs example lists;
+          Conditional
+          For loops
+          Do while loops
+          While loops
+          Not while loop or Unless loop
+          try blocks
+          functions and methods
+          timing
+          Suggestions for style and structure
+          where and when to comment
+          "Make sure parts of your programs work as you work on them. Do not write massive files of code before you try to run them. Code a little, run a little, fix a little."
+          Code openings and closings together. "" () begin end {} '' || [] For next/end
+          For Code challenges
+          if you don't understand what you are supposed to do run and see what the test are.
+          For for white board challenges:
+          0 Question
+          1 Algorithm
+          2 complexity
+          3 Test cases
+          4 Code
+          5 Proof (optional)
+          Guideline for writing a tutorial
+          Start from non working code
+          Teach to the errors. Show people what errors they can get and what it means.</p>
       </div>
     </div>
   </body>
