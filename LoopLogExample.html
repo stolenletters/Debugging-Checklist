@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Next two tags copied from Bootstrap in one video  https://www.youtube.com/watch?v=gqOEoUR5RHg -->
+    <!-- If IE use the latest rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Set the page to the width of the device and set the zoom level to 1 -->
+    <meta name="viewport" content="width = device-width, initial-scale =1">
+
+    <title>Debugging Checklist</title>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <h2>Debugging loops and using log statements example:</h2>
+      <p>
+        This code give an infanite loop. Why?
+        <code>
+          for(var i = 5; i > 0; i++){
+            //do somthing important
+          }
+        </code>
+        Let's say we don't see why. So we try a log statement.
+        <code>
+          for(var i = 5; i > 0; i++){
+            console.log("i =" + i);
+            //do somthing important
+          }
+        </code>
+        <p>We still get an infanate loop. But this time we see:<br>
+          i = 5<br>
+          i = 6<br>
+          i = 7<br>
+          i = 8<br>
+          ...<br>
+          Now it is clearer. The loop is counting up. Our test case is always true.
+          How can we fix it?
+      </p>
+    </div>
+  </body>
