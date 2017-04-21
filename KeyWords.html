@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Next two tags copied from Bootstrap in one video  https://www.youtube.com/watch?v=gqOEoUR5RHg -->
+    <!-- If IE use the latest rendering engine -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Set the page to the width of the device and set the zoom level to 1 -->
+    <meta name="viewport" content="width = device-width, initial-scale =1">
+
+    <title>Debugging Checklist</title>
+
+  </head>
+
+  <body>
+    <div class="container">
+    <ul><h1>Key Words and what they mean:</h1>
+      <li><h2>"Symbol Undefined", "Unknown fucntion", "is not a key word":</h2>
+        <p>The function you called,
+          key word you used,
+          variable you refer to is not known.
+          It usually means that there is a spelling error.</p></li>
+      <li><h2>"Type mismatch":</h2>
+        <p>The computer was expecting one type of information and got another.
+          It wanted a string and got a number or boolean.</p>
+      </li>
+      <li><h2>"Illigal start":</h2>
+        <p>This almost always means you are missing a closing
+          before the line the computer has a problem with.</p>
+      </li>
+      <li><h2>"... is uninitilized." "... maybe uninitilized.":</h2>
+        <p>This you are trying to do a calculation or assigning
+          a value with a variable that may not have a value yet.</p>
+      </li>
+    </ul>
+    </div>
+  </body>
