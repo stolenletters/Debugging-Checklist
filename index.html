@@ -34,8 +34,8 @@
           <p> is a sign of progess because usauly means that you have fixed
             one error and found a new one.</p></li>
       </div>
-      <div>
-        <h2>Flow Chart For Complete Newbies on
+      <div class="Checklist">
+        <h2>Checklist For Complete Newbies on
           what to do when Code Doesn’t work</h2>
           <p>When you get a new error message
             or you learn something about what
@@ -154,13 +154,40 @@
             <li>Never nest if-statements more than two deep and always try to do them one deep.</li>
             <li>Put blank lines before and after.</li>
             <li>Your boolean tests should be simple. If they are complex, move their calculations to variables earlier in your function and use a good name for the variable.</li>
-            <li>Watch for all or nothing cases not covered. In "complete" lists. Practice for getting user input. Use of laundry/grocery lists vs example lists;</li>
+            <li>Watch for all or nothing cases which are not covered. In "complete" lists. Practice for getting user input. Use of laundry/grocery lists vs example lists;</li>
           </ul></li>
           <li>Conditional</li>
-          <li>For loops</li>
-          <li>Do while loops</li>
-          <li>While loops</li>
-          <li>Not while loop or Unless loop</li>
+          <li><ul>For loops
+            <li>Never nest loops more than two deep.</li>
+            <li>Consider brakeing out into a helper function.</li>
+            <li>For nested loops over two dimensional arrays 
+              consider using "row" and "col" for variable names.<li>
+          </ul></li>
+          <li><ul>Do while loops
+            <li>Never nest loops more than two deep.</li>
+            <li>Consider brakeing out into a helper function.</li>
+            <li>Avoid loops that run forever (infanate loops).
+              <p>You can start your loop with a counter and break statement.
+                Remove it when you loop works.</p></li>
+          </ul></li>
+          <li><ul>While loops
+            <li>Never nest loops more than two deep.</li>
+            <li>Consider brakeing out into a helper function.</li>
+            <li>Avoid loops that run forever (infanate loops).
+              <p>You can start your loop with a counter and break statement.
+                Remove it when you loop works.</p></li>
+          </ul></li>
+          <li><ul>Not while loop or Unless loop
+            <li>Consider making the condition a helper function.
+              <p>Negatives are confusing to read so it can be positive.
+                Then instead of saying when "way is not blocked"
+                you can say when "way is open".</p>
+            <li>Never nest loops more than two deep.</li>
+            <li>Consider brakeing out into a helper function.</li>
+            <li>Avoid loops that run forever (infanate loops).
+              <p>You can start your loop with a counter and break statement.
+                Remove it when you loop works.</p></li>
+          </ul></li>
           <li>try blocks</li>
           <li>functions and methods</li>
           <li>timing</li>
