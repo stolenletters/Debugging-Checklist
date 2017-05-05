@@ -39,7 +39,7 @@
         <li>Getting new error messages.
           <p> It may feel like one neve ending series of problems and errors.
             A new error message means either you fixed one error
-            and so found a new one. 
+            and so found a new one.
             Or it allows you to know more about where your error is
             and what will or won't fix it.</p></li>
       </div>
@@ -156,14 +156,20 @@
           <li>Bad UX and bad users</li>
           <li>Too big, small, null, wrong type, etc…</li>
           <li>Landmines how code brakes</li>
-          <li>functions should work correctly and brake spectacularly</li>
+          <li>Functions should work correctly or brake spectacularly.
+            Functions should never return wrong answers
+            that are the same type as correct answers.</li>
         </ol></li>
           <li><ol><h2>Suggestions by type of statement</h2>
           <li><ul>If then
-            <li>Never nest if-statements more than two deep and always try to do them one deep.</li>
+            <li>Never nest if-statements more than two deep.</li>
             <li>Put blank lines before and after.</li>
-            <li>Your boolean tests should be simple. If they are complex, move their calculations to variables earlier in your function and use a good name for the variable.</li>
-            <li>Watch for all or nothing cases which are not covered. In "complete" lists. Practice for getting user input. Use of laundry/grocery lists vs example lists;</li>
+            <li>Your boolean tests should be simple.
+              If they are complex, move their calculations to variables earlier
+              in your function and use a good name for the variable.</li>
+            <li>Watch for all or nothing cases which are not covered.
+              In "complete" lists. Practice for getting user input.
+              Use of laundry/grocery lists vs example lists;</li>
           </ul></li>
           <li>Conditional</li>
           <li><ul>For loops
@@ -198,7 +204,12 @@
                 Remove it when you loop works.</p></li>
           </ul></li>
           <li>try blocks</li>
-          <li>functions and methods</li>
+          <li><ul>functions and methods (I am going to use the word functions to include methods):
+            <li>Function should do only one thing.</li>
+            <li>Function should return a value and be <a>pure</a>
+              or not return anything and have <a href="KeyWords.html">side effects</a>
+              sometimes fuctions that have <a href="KeyWords.html">side effects</a> return a boolean.</li>
+          </ul></li>
           <li>timing</li>
         </ol></li>
           <li><ol><h2>Suggestions for style and structure</h2>
